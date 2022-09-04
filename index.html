@@ -11,28 +11,45 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link href="./styles/styles.css" rel="stylesheet" />
   </head>
+
   <body>
     <main>
       <h1></h1>
 
       <section class="blog-post-one-section">
-        <div class="blog-post-color">
-          <div class="bcg-img">
-            <img
-              src="./images/blog-post-one-img.jpg"
-              alt="blog-post-photo"
-              width="680"
-              height="517"
-            />
-          </div>
-        </div>
-        <h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            delectus.
-          </p>
-        </h3>
+        <ul class="blog list">
+          <li>
+            <div class="wrapper-blog">
+              <h2 class="main-title-blog">April 16 2020</h2>
+              <h3 class="sub-main-title-blog">Blog Post One</h3>
+              <p class="section-text-blog">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptate, ipsum dignissimos quae laudantium asperiores nam
+                aliquid impedit harum illum dolore explicabo ab dolores itaque
+                rerum temporibus doloribus iste maiores deleniti?
+              </p>
+              <!-- <a href="" class="read-blog-link">
+                Read Our Blog</a> -->
+              <button class="read-blog-btn">Read Our Blog</button>
+            </div>
+          </li>
+          <li>
+            <div class="wrapper-image-blog">
+              <img
+                src="./images/blog-post-one-img.jpg"
+                alt="blog-image"
+                width="680"
+                height="517"
+              />
+            </div>
+          </li>
+        </ul>
       </section>
     </main>
   </body>
