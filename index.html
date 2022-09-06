@@ -17,7 +17,7 @@
     />
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
-  
+ 
   <body>
     <!-- ============================= Header ====================== -->
     <header>
@@ -41,8 +41,33 @@
         <!-- Пиши код ниже -->
       </section>
       <!-- =========================== Blog Post ================================ -->
-      <section>
-        <!-- Пиши код ниже -->
+      <section class="blog-post-one-section">
+          <ul class="blog list">
+            <li>
+              <div class="wrapper-blog">
+                <h2 class="main-title-blog">April 16 2020</h2>
+                <h3 class="sub-main-title-blog">Blog Post One</h3>
+                <p class="section-text-blog">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptate, ipsum dignissimos quae laudantium asperiores nam
+                  aliquid impedit harum illum dolore explicabo ab dolores itaque
+                  rerum temporibus doloribus iste maiores deleniti?
+                </p>
+
+                <button class="read-blog-btn" data-modal-open>Read Our Blog</button>
+              </div>
+            </li>
+            <li>
+              <div class="wrapper-image-blog">
+                <img
+                  src="./images/blog-post-one-img.jpg"
+                  alt="blog-image"
+                  width="680"
+                  height="517"
+                />
+              </div>
+            </li>
+          </ul>
       </section>
       <!-- ============================= Team ===================================== -->
       <section>
@@ -56,6 +81,16 @@
       <section>
         <!-- Пиши код ниже -->
       </section>
+       <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg class="modal-close-icon" width="30" height="30">
+            <use href="./images/sprite.svg#icon-close_icon"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+      <script src="./js/modal.js"></script>
     </main>
   </body>
 </html>
