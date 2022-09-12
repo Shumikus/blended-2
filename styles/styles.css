@@ -157,6 +157,62 @@ button {
 fill: red;
 }
 
+/* ========================== Team =========================== */
+
+.team-list{
+    list-style: none;
+}
+
+.img{
+    display: block;
+}
+
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.team-conteyner{
+    width: 1360px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ 
+.team-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    color: #333333;
+}
+
+.team-tytle{font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;    
+    color: #333333;}
+
+.latin{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #333333;
+}    
+
+.team-list{
+    display: flex;
+    align-items: center;
+}
 /* =============================Callbackt============================ */
 
 .block {
