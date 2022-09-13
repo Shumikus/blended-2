@@ -82,21 +82,17 @@
           <h2 class="visually-hidden">Callback</h2>
           <h3 class="subtitle">Request Callback</h3>
           <form>
-            <label>
+            <label class="callback-point">
               <input type="text" name="name" placeholder="Enter your name" class="callback-field">
             </label>
-            <label>
-              <input type="email" name="email" placeholder="Enter email*" required class="callback-field second">
+            <label class="callback-point second">
+              <input type="email" name="email" placeholder="Enter email*" required class="callback-field">
             </label>
             <button type="submit" class="callback-button">Send</button>
           </form>
         </div>
       </div>
     </section>
-      <!-- ============================== Footer ==================================== -->
-      <section>
-        <!-- Пиши код ниже -->
-      </section>
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
           <button type="button" class="modal-close-btn" data-modal-close>
@@ -107,6 +103,40 @@
         </div>
       </div>
     </main>
+    <!-- ============================= Footer ====================================  -->
+    <footer class="container">
+      <ul class="footer-list">
+        <li>
+          <a href="#" class="footer-link">
+            <svg width="35" height="35">
+              <use href="./images/sprite.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">
+            <svg width="35" height="35">
+              <use href="./images/sprite.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">
+            <svg width="40" height="35">
+              <use href="./images/sprite.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">
+            <svg width="31" height="35">
+              <use href="./images/sprite.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <p class="footer-text">Copyright © 2021 - FinanceLedger</p>
+    </footer>
     <script src="./js/modal.js"></script>
   </body>
 </html>
