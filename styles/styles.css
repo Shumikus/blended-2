@@ -230,10 +230,8 @@ fill: red;
 }
 
 .business-subtitle {
-    margin-bottom: 17px;
+    margin-bottom: 15px;
     font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 1.65;
     text-align: center;
@@ -242,9 +240,8 @@ fill: red;
 }
 
 .business-title {
-    margin-bottom: 32px;
+    margin-bottom: 34px;
     font-family: 'Open Sans', sans-serif;
-    font-style: normal;
     font-weight: 300;
     font-size: 38px;
     line-height: 1.26;
@@ -256,8 +253,6 @@ fill: red;
 .business-text {
     margin-bottom: 39px;
     font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 1.56;
     text-align: center;
@@ -278,5 +273,5 @@ fill: red;
 .business-img {
     max-width: 100%;
     height: auto;
-
+    
 }
