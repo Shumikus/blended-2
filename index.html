@@ -13,7 +13,8 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
 
@@ -34,13 +35,71 @@
       <!-- ======================== What we provide ======================================= -->
       <section>
         <!-- Пиши код ниже -->
+        <section class="provide-section container">
+          <ul class="provide list">
+            <li>
+              <div class="wrapper-image-provide">
+                <img
+                  src="./images/Rectangle9.jpg"
+                  alt="blog-image"
+                  width="680"
+                  height="460"
+                />
+              </div>
+            </li>
+            <li>
+              <div class="wrapper-provide">
+                <h2 class="main-title-provide">What you are looking for</h2>
+                <h3 class="sub-main-title-provide">
+                  We provide bespoke solutions
+                </h3>
+                <p class="section-text-provide">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptate, ipsum dignissimos quae laudantium asperiores nam
+                  aliquid impedit harum illum dolore explicabo ab dolores itaque
+                  rerum temporibus doloribus iste maiores deleniti?
+                </p>
+
+                <button class="read-more-btn" data-modal-open>Read More</button>
+              </div>
+            </li>
+          </ul>
+        </section>
       </section>
       <!-- ========================= Business Cases =================================== -->
-      <section>
-        <!-- Пиши код ниже -->
+      <section class="business-section container">
+        <p class="business-subtitle">This is what we do</p>
+        <h2 class="business-title">Business Cases</h2>
+        <p class="business-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
+        <ul class="business-list">
+          <li class="business-item">
+            <img class="business-img" src="./images/rectangle-1-1.jpg" alt="People working at a table with computers" width="320" height="214">
+          </li>
+          <li class="business-item">
+            <img class="business-img" src="./images/rectangle-2-1.jpg" alt="People working and taking notes in a notebook" width="320" height="214">
+          </li>
+          <li class="business-item">
+            <img class="business-img" src="./images/rectangle-3-1.jpg" alt="Man at the table shakes hands with a woman" width="320" height="214">
+          </li>
+          <li class="business-item">
+            <img class="business-img" src="./images/rectangle-4-1.jpg" alt="Six people shake hands" width="320" height="214">
+          </li>
+          <li class="business-item">
+            <img class="business-img" src="./images/rectangle-5-1.jpg" alt="Woman working on a laptop" width="320" height="214">
+          </li>
+          <li class="business-item">
+            <img class="business-img" src="./images/rectangle-6-1.jpg" alt="Three skyscrapers" width="320" height="214">
+          </li>
+          <li class="business-item">
+            <img class="business-img" src="./images/rectangle-7-1.jpg" alt="Woman smiles in the company of colleagues" width="320" height="214">
+          </li>
+          <li class="business-item">
+            <img class="business-img" src="./images/rectangle-8-1.jpg" alt="Three people working behind a laptop and smiling" width="320" height="214">
+          </li>
+        </ul>
       </section>
       <!-- =========================== Blog Post ================================ -->
-      <section class="blog-post-one-section">
+      <section class="blog-post-one-section container">
         <ul class="blog list">
           <li>
             <div class="wrapper-blog">
@@ -75,24 +134,41 @@
         <!-- Пиши код ниже -->
       </section>
       <!-- ============================= Callback ====================================  -->
-    <section class="callback container">
-      <div class="block">
-        <img src="./images/rectangle-9.jpg" alt="Man working on a computer" width="680" height="460">
-        <div class="callback-form" >
-          <h2 class="visually-hidden">Callback</h2>
-          <h3 class="subtitle">Request Callback</h3>
-          <form>
-            <label class="callback-point">
-              <input type="text" name="name" placeholder="Enter your name" class="callback-field">
-            </label>
-            <label class="callback-point second">
-              <input type="email" name="email" placeholder="Enter email*" required class="callback-field">
-            </label>
-            <button type="submit" class="callback-button">Send</button>
-          </form>
+      <section class="callback container">
+        <div class="block">
+          <img
+            src="./images/rectangle-9.jpg"
+            alt="Man working on a computer"
+            width="680"
+            height="460"
+          />
+          <div class="callback-form">
+            <h2 class="visually-hidden">Callback</h2>
+            <h3 class="subtitle">Request Callback</h3>
+            <form>
+              <label>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Enter your name"
+                  class="callback-field"
+                />
+              </label>
+              <label>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Enter email*"
+                  required
+                  class="callback-field second"
+                />
+              </label>
+              <button type="submit" class="callback-button">Send</button>
+            </form>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <!-- ============================== Modal ==================================== -->
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
           <button type="button" class="modal-close-btn" data-modal-close>
